@@ -1,0 +1,12 @@
+Gateio:
+查询系统支持的所有币种
+http://data.gateio.io/api2/1/marketls
+
+兑币价
+http://data.gateio.io/api2/1/ticker/btc_usdt
+
+Huobi:
+查询系统支持的所有币种
+v1/common/symbols
+兑币价
+

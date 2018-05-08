@@ -1,0 +1,430 @@
+@font-face{font-family:Raleway-Regular;src:url(../fonts/Raleway-Regular.otf)}
+@font-face{font-family:Raleway-Bold;src:url(../fonts/Raleway-Bold.otf)}
+@font-face{font-family:Raleway-Light;src:url(../fonts/Raleway-Light.ttf)}
+@font-face{font-family:Raleway-Medium;src:url(../fonts/Raleway-Medium.ttf)}
+@font-face{font-family:Raleway-SemiBold;src:url(../fonts/Raleway-SemiBold.ttf)}
+@font-face{font-family:Roboto-Regular;src:url(../fonts/Roboto-Regular.ttf)}
+@font-face{font-family:Roboto-Medium;src:url(../fonts/Roboto-Medium.ttf)}
+@font-face{font-family:Raleway-ExtraBold;src:url(../fonts/Raleway-ExtraBold.ttf)}
+body {
+	font-family: "Raleway-Regular";
+	overflow-x: hidden;
+}
+.pad0 {
+	padding: 0px;
+}
+.text-green {
+	color: #14cc70;
+}
+.text-black {
+	color: #000000;
+}
+.text-navy-blue {
+	color: #4D6474;
+}
+.text-gray {
+	color: #cccccc;
+}
+.margin-b-lg {
+	margin-bottom: 50px;
+}
+.line-height {
+	line-height: 25px;
+}
+.video-img {
+	width:100%
+}
+.content-div{
+	margin-top:250px; 
+	width: 100%;
+}
+.nav>li.active>a, .nav>li.active>a:hover { 
+	text-decoration:none; 
+	background-color:#eee;
+}
+.video {
+	height: 700px;
+	background-image: url(/img/site/heading_bg.png);
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right center;
+}
+.video-title{
+	color:#fff;
+	font-family:"Raleway-SemiBold";
+	margin-bottom: 20px;
+}
+.video-tag{
+	color:#fff;
+	margin-bottom: 30px;
+}
+.section-heading {
+	margin: 80px 0;
+	display: inline-block;
+	position: relative;
+}
+.section-heading:after {
+	position: absolute;
+	border-bottom: 1px solid #cccccc;
+	content: '';
+	width: auto;
+	left: -50px;
+	right: -50px;
+	margin: 70px auto auto auto;
+}
+.features-heading {
+	margin: 80px 0;
+	display: inline-block;
+	position: relative;
+}
+.features-heading:after {
+	position: absolute;
+	border-bottom: 1px solid #444444;
+	content: '';
+	width: auto;
+	left: -50px;
+	right: -50px;
+	margin: 70px auto auto auto;
+}
+.watch-video-btn {
+	background: transparent;
+    border: 2px solid #14cc70;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+.watch-video-btn .fa-play {
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	padding: 8px 8px 8px 12px;
+}
+.navbar-default {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	background-color: #fff;
+	border: 0;
+	border-radius: 0;
+}
+.pricing-range, .rating-input {
+	text-align: center;
+}
+.trial {
+	background-image: url(/img/site/why_customer_bg.png);
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.trial .btn-trial {
+	padding:10px;
+	width: 300px;
+	border-radius:50px;
+	background-color:#14cc70;
+	margin: -35px auto !important;
+}
+.trial .btn-trial a {
+	font-family:"Raleway-Bold";
+	font-size:24px;
+	color:#fff;
+}
+.strategy-detail {
+	text-align: left;
+	margin: 4% 0;
+}
+.gamification {
+	background-color: #ffffff;
+}
+.gamification-content {
+	display: inline-block;
+	margin-left: 20px;
+}
+.case-study-block {
+	background-image: url(/img/site/case-study.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	padding: 30px;
+	color: #fff;
+}
+.btn-case-study {
+	color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    width: 270px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: none;
+	color: #fff;
+}
+
+.btn-case-study:hover, .watch-video-btn:hover {
+	color: #ffffff;
+}
+.btn-signup {
+	color: #14cc70;
+	background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    width: 270px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btn-signup:hover {
+	color: #14cc70;
+}
+.be_found {
+	background-color: #ffffff;
+}
+.be-found-block {
+	margin-top: 5%;
+}
+.how_it_works {
+	background-image: url(/img/site/How_it_works_bg.png);
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.how_it_works img {
+	margin-bottom: 30px;
+}
+.how_it_works .arrow:after{
+	content : url(/img/site/aero_right.png);
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+
+.features {
+	background-image: url(/img/site/feature_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.features-list {
+	padding: 20px;
+}
+.features-list:hover {
+	background-color: #14cc70;
+	border-radius: 15px;
+	color: #fff; 
+}
+.features-list:hover .feature-details p {
+	color: #fff;
+}
+.features .feature-title {
+	color: #fff;
+	text-transform: uppercase;
+}
+.features .feature-details p {
+	color: #ccc;
+	margin-bottom: 5px;
+}
+.testimonials {
+	min-height: 600px;
+}
+.testimonials-arrow-right {
+	position: absolute;
+	bottom: 5%;
+	right: 0;
+}
+.testimonials-img {
+    width: 120px;
+    border-radius: 50%;
+}
+.testimonials {
+	background-image: url(/img/site/How_it_works_bg.png);
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 10px;
+}
+.testimonials-arrow-left {
+	display: inline-block !important;
+	position: absolute;
+	left: 10%;
+}
+.testimonials-arrow-right {
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+}
+.testimonials-content {
+	display: inline-block !important;
+}
+.testimonials-img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+#testimonials-carousel .prev-arrow {
+    position: absolute;
+    left: 0;
+    font-size: 50px;
+    top: 35%;
+}
+#testimonials-carousel .next-arrow {
+    position: absolute;
+    right: 0;
+    font-size: 50px;
+    top: 35%;
+}
+.play-video-first {
+    display: block;
+    font-size: 40px;
+    line-height: 50px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    background: #14cc70;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.play-video-second {
+    display: block;
+    font-size: 40px;
+    line-height: 50px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    background: #14cc70;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.pricing-block {
+	-webkit-box-shadow: 0px 0px 33px 0px rgba(204,204,204,1);
+	-moz-box-shadow: 0px 0px 33px 0px rgba(204,204,204,1);
+	box-shadow: 0px 0px 33px 0px rgba(204,204,204,1);
+	margin: 20px;
+	width: 400px;
+	display: inline-block;
+	background-color: #ffffff;
+}
+.pricing-block .free-pricing {
+	background-color: #4D6474;
+	color: #fff;
+	padding: 10px;
+	font-size: 25px;
+}
+.pricing-block .business-pricing {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	font-size: 25px;
+}
+.pricing-block .price-block {
+	padding: 30px;
+	font-size: 35px;
+}
+.pricing-block .price-block .price {
+	font-size: 50px;
+}
+.price-line {
+	border: 2px solid;
+	margin: 20px auto;
+}
+.price-list ul {
+	padding: 10px;
+	margin-bottom: 0;
+}
+.price-list ul li {
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.sales {
+	background-color: #394456;
+}
+.sales .sales-block {
+	margin: 100px auto;
+}
+.sales .sales-block .increase-text {
+	margin:0;
+	font-size:30px;
+	color:#fff;
+	font-family:"Raleway-ExtraBold";
+	text-transform: uppercase;
+}
+
+/* video modal */
+#videoModal .modal-body #control #play-pause,#videoModal .modal-body #control #video-replay {
+	position:absolute;width:142px;height:142px;border:0;top:50%;left:50%;transform:translate(-50%,-50%);display:none
+}
+.modal {
+	z-index:10050
+}
+.modal-backdrop {
+	z-index:10040
+}
+#videoModal .modal-body #control #play-pause {
+	background:url(../img/site/play-icon2.png) no-repeat
+}
+#videoModal .modal-body #control #video-replay { 
+	background:url(../img/site/replay.png) no-repeat
+}
+#videoModal .modal-body #video {
+	height:100%;width:100%;
+}
+#videoModal .modal-dialog {
+	width:100%;margin:0 auto;max-width:85%;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%)
+}
+
+@media (max-width: 992px) {
+	.pricing-block {
+		margin: 20px 10px;
+		width: 300px;
+	}
+	.pricing-block .price-block {
+		padding: 10px;
+	}
+	.price-list ul li {
+		font-size: 16px;
+	}
+	.testimonials-arrow-left {
+		left: 0;
+	}
+	.testimonials-arrow-right {
+		right: 0;
+	}
+}
+@media (max-width: 767px) {
+	.section-heading:after, .features-heading:after {
+		left: 0;
+		right: 0;
+	}
+	a.start-trial {
+		float: none;
+	}
+	.trial .btn-trial {
+		width: 200px;
+		margin: -25px auto !important;
+		padding: 0;
+	}
+	.testimonials {
+		padding: 10px;
+	}
+	.trial .btn-trial a {
+		font-size: 18px;
+	}
+	.how_it_works .arrow:after{
+		content : "";
+	}
+	.be-found-block, .solution, .strategy-detail {
+		text-align: center;
+	}
+}
+

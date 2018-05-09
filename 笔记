@@ -10,3 +10,6 @@ Huobi:
 v1/common/symbols
 兑币价
 
+
+查看Ubuntu文件夹占用空间的大小：
+du -h --max-depth=0
